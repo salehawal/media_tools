@@ -1,4 +1,9 @@
 #!/bin/bash
+################################################################################
+# Script: bash_gen.sh
+# Description: A script for generating new Bash scripts with headers and comments.
+# Author: Saleh Geberty
+################################################################################
 
 split_video() {
     input_file=$1
@@ -76,12 +81,3 @@ case $action in
         exit 1
         ;;
 esac
-
-# splitting example
-# ./media_tool.sh --action split input.mp4 00:00:10 00:00:30 output.mp4 --process copy
-
-# Merging Example
-# ./media_tool.sh --action split input.mp4 00:00:10 00:00:30 output.mp4 --process copy
-
-# Converting Example
-# ./media_tool.sh --action split input.mp4 00:00:10 00:00:30 output.mp4 --process copy
